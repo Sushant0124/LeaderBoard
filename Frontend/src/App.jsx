@@ -7,8 +7,8 @@ import UserPointHistory from './UserPointHistory';
 import io from 'socket.io-client';
 import './App.css';
 
-const API_URL = 'http://localhost:3000/api';
-const socket = io('http://localhost:3000');
+const API_URL = 'https://leader-board-9hm2.vercel.app/api';
+const socket = io('https://leader-board-9hm2.vercel.app/');
 
 const App = () => {
   const [users, setUsers] = useState([]);
