@@ -7,8 +7,8 @@ import UserPointHistory from './UserPointHistory';
 import io from 'socket.io-client';
 import './App.css';
 
-const API_URL = 'https://leaderbackend.onrender.com/api';
-const socket = io('https://leaderbackend.onrender.com');
+const API_URL = 'https://leaderbackend-1.onrender.com/api';
+const socket = io('https://leaderbackend-1.onrender.com');
 
 const App = () => {
   const [users, setUsers] = useState([]);
