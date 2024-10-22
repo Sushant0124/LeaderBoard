@@ -1,0 +1,40 @@
+/* Leaderboard.css */
+
+.leaderboard-container {
+  margin-top: 20px;
+}
+
+.leaderboard-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center; /* Center the header */
+  color: #007bff; /* Highlight color for the header */
+}
+
+.leaderboard-table {
+  width: 100%; /* Full width for the table */
+  border-collapse: collapse; /* Collapse borders */
+  background-color: #fff; /* White background for the table */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 10px; /* Padding for cells */
+  text-align: left; /* Left-align text */
+  border-bottom: 1px solid #ddd; /* Bottom border for rows */
+}
+
+.leaderboard-table th {
+  background-color: #f4f4f4; /* Light background for header */
+  font-weight: bold; /* Bold header text */
+}
+
+.leaderboard-table tr:hover {
+  background-color: #f0f0f0; /* Highlight on row hover */
+}
+
+.leaderboard-table tr:last-child td {
+  border-bottom: none; /* Remove border from last row */
+}

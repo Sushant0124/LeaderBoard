@@ -1,0 +1,35 @@
+/* UserSelection.css */
+
+.user-selection-container {
+  margin: 20px; /* Margin around the container */
+  padding: 20px; /* Padding inside the container */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background for better visibility */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.user-selection-container h2 {
+  font-size: 24px; /* Header font size */
+  color: #333; /* Header text color */
+  margin-bottom: 15px; /* Space between header and dropdown */
+  text-align: center; /* Center the header */
+}
+
+.user-selection-dropdown {
+  width: 100%; /* Full width dropdown */
+  padding: 10px; /* Padding inside the dropdown */
+  border: 1px solid #ccc; /* Border for the dropdown */
+  border-radius: 5px; /* Rounded corners for dropdown */
+  background-color: #fff; /* White background for dropdown */
+  font-size: 16px; /* Font size for dropdown options */
+  cursor: pointer; /* Pointer cursor for dropdown */
+}
+
+.user-selection-dropdown option {
+  padding: 10px; /* Padding for each option */
+}
+
+.user-selection-dropdown:hover {
+  border-color: #007bff; /* Change border color on hover */
+}

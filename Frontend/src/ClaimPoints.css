@@ -1,0 +1,47 @@
+/* ClaimPoints.css */
+
+.claim-points-container {
+  display: flex;
+  justify-content: center; /* Center the button */
+  padding: 20px; /* Add some padding */
+}
+
+.claim-points-button {
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Transition effect */
+  display: flex; /* Flexbox to center the spinner */
+  align-items: center; /* Center items vertically */
+}
+
+.claim-points-button.active {
+  background-color: #0056b3; /* Darker shade when active */
+}
+
+.claim-points-button:disabled {
+  background-color: #cccccc; /* Disabled button color */
+  cursor: not-allowed; /* Not-allowed cursor */
+}
+
+.claim-points-button:hover:not(:disabled) {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.spinner {
+  border: 2px solid rgba(255, 255, 255, 0.3); /* Light spinner border */
+  border-top: 2px solid white; /* White spinner top */
+  border-radius: 50%; /* Circular spinner */
+  width: 16px; /* Spinner size */
+  height: 16px; /* Spinner size */
+  animation: spin 0.6s linear infinite; /* Spinner animation */
+  margin-right: 8px; /* Space between spinner and text */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
