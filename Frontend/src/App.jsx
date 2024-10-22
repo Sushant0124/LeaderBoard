@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import UserSelection from './UserSelection';
 import ClaimPoints from './ClaimPoints';
-import Leaderboard from './Leaderboard';
+import Leaderboard from './LeaderBoard';
 import UserPointHistory from './UserPointHistory';
 import io from 'socket.io-client';
 import './App.css';
